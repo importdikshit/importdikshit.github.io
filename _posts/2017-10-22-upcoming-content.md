@@ -7,6 +7,7 @@ title: Upcoming Content
 
 - Decompositions
 - Gaussianity
+- Homomorphic Encryption
 - Support Vector Machines
 - Gradient Descent and SGD
 - Autodifferentiation/Backpropogation
@@ -18,8 +19,7 @@ title: Upcoming Content
 - Canonical Goddamn Correlation Analysis
 - Principal Component Analysis
 - Paper Walkthroughs: TSNE
-- Paper Walkthroughs: Word2Vec
 - MLE and MAP: Intution
-- Recurrent Neural Networks
+- Recurrent Neural Networks and its variants
 
 Gotta get that 189 Extra Credit.
