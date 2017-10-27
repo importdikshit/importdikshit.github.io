@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Decompositions: Linear Algebra for Machine Learning
+title: Decompositions - Types, Usage, Intuition
 ---
 
 - Eigenvalues
