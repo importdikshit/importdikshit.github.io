@@ -1,8 +1,14 @@
 ---
 layout: post
-title: from dikshit import decomposition
+title: Decompositions: Linear Algebra for Machine Learning
 ---
 
-Suh. Just seeing if this doesnt break.
-
-Kinda janky. 
+- Eigenvalues
+- Intuition behind Eigenvalues
+- Eigen Decomposition
+- Singular Value Decomposition
+- Spectral Theorem
+- Spectral Decomposition
+- Where all of this nonsense converges
+- Takeaways
+- TL;DR
