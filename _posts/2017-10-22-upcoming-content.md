@@ -9,7 +9,9 @@ title: Upcoming Content
 - Gaussianity
 - Homomorphic Encryption
 - Support Vector Machines
-- Gradient Descent and SGD
+- Stochastic Gradient Descent
+- Optimizers for DL. When to use which one
+- Generative Adverserial Hype
 - Autodifferentiation/Backpropogation
 - Homomorphically Encrypted Weights
 - Convolutional Neural Networks
