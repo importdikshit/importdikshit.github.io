@@ -4,7 +4,7 @@
  <title>import dikshit</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-26T18:30:41-07:00</updated>
+ <updated>2017-10-27T01:44:11-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ishan Dikshit</name>
@@ -13,10 +13,59 @@
 
  
  <entry>
-   <title>Introduction</title>
-   <link href="http://localhost:4000/2016/01/03/introduction/"/>
-   <updated>2016-01-03T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2016/01/03/introduction</id>
+   <title>Decompositions - Types, Usage, Intuition</title>
+   <link href="http://localhost:4000/2017/10/25/decomposition/"/>
+   <updated>2017-10-25T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2017/10/25/decomposition</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Eigenvalues&lt;/li&gt;
+  &lt;li&gt;Intuition behind Eigenvalues&lt;/li&gt;
+  &lt;li&gt;Eigen Decomposition&lt;/li&gt;
+  &lt;li&gt;Singular Value Decomposition&lt;/li&gt;
+  &lt;li&gt;Spectral Theorem&lt;/li&gt;
+  &lt;li&gt;Spectral Decomposition&lt;/li&gt;
+  &lt;li&gt;Where all of this nonsense converges&lt;/li&gt;
+  &lt;li&gt;Takeaways&lt;/li&gt;
+  &lt;li&gt;TL;DR&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Upcoming Content</title>
+   <link href="http://localhost:4000/2017/10/22/upcoming-content/"/>
+   <updated>2017-10-22T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2017/10/22/upcoming-content</id>
+   <content type="html">&lt;h2 id=&quot;list-of-ideas-for-posts&quot;&gt;List of ideas for posts:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Decompositions&lt;/li&gt;
+  &lt;li&gt;Gaussianity&lt;/li&gt;
+  &lt;li&gt;Homomorphic Encryption&lt;/li&gt;
+  &lt;li&gt;Support Vector Machines&lt;/li&gt;
+  &lt;li&gt;Gradient Descent and SGD&lt;/li&gt;
+  &lt;li&gt;Autodifferentiation/Backpropogation&lt;/li&gt;
+  &lt;li&gt;Homomorphically Encrypted Weights&lt;/li&gt;
+  &lt;li&gt;Convolutional Neural Networks&lt;/li&gt;
+  &lt;li&gt;Word2Vec Intuition Slides&lt;/li&gt;
+  &lt;li&gt;Convolutional Sequence to Sequence Learning&lt;/li&gt;
+  &lt;li&gt;The ubiquity of CNN’s&lt;/li&gt;
+  &lt;li&gt;Canonical Goddamn Correlation Analysis&lt;/li&gt;
+  &lt;li&gt;Principal Component Analysis&lt;/li&gt;
+  &lt;li&gt;Paper Walkthroughs: TSNE&lt;/li&gt;
+  &lt;li&gt;MLE and MAP: Intution&lt;/li&gt;
+  &lt;li&gt;Recurrent Neural Networks and its variants&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gotta get that 189 Extra Credit.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example content</title>
+   <link href="http://localhost:4000/2016/01/02/example-content/"/>
+   <updated>2016-01-02T00:00:00-08:00</updated>
+   <id>http://localhost:4000/2016/01/02/example-content</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jekyll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel’s supporting cast is a man by the name of Mr. Poole, Dr. Jekyll’s loyal butler.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -57,15 +106,8 @@
 &lt;p&gt;These themes are developed on and hosted with GitHub. Head to the &lt;a href=&quot;&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Example content</title>
-   <link href="http://localhost:4000/2016/01/02/example-content/"/>
-   <updated>2016-01-02T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2016/01/02/example-content</id>
-   <content type="html">&lt;div class=&quot;message&quot;&gt;
+
+&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
 
@@ -250,21 +292,6 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://localhost:4000/2016/01/01/whats-jekyll/"/>
-   <updated>2016-01-01T00:00:00-08:00</updated>
-   <id>http://localhost:4000/2016/01/01/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool. Find out more by &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
