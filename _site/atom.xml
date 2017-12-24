@@ -4,13 +4,28 @@
  <title>import dikshit</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-27T01:44:11-07:00</updated>
+ <updated>2017-12-19T03:01:08-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ishan Dikshit</name>
    <email>ishan.d@berkeley.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Gaussianity!</title>
+   <link href="http://localhost:4000/2017/10/29/gaussianity/"/>
+   <updated>2017-10-29T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2017/10/29/gaussianity</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Gauss&lt;/li&gt;
+  &lt;li&gt;Normal Distribution&lt;/li&gt;
+  &lt;li&gt;Moments&lt;/li&gt;
+  &lt;li&gt;What all should I put up. Start with the next one.&lt;/li&gt;
+  &lt;li&gt;TL;DR&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Decompositions - Types, Usage, Intuition</title>
@@ -43,7 +58,9 @@
   &lt;li&gt;Gaussianity&lt;/li&gt;
   &lt;li&gt;Homomorphic Encryption&lt;/li&gt;
   &lt;li&gt;Support Vector Machines&lt;/li&gt;
-  &lt;li&gt;Gradient Descent and SGD&lt;/li&gt;
+  &lt;li&gt;Stochastic Gradient Descent&lt;/li&gt;
+  &lt;li&gt;Optimizers for DL. When to use which one&lt;/li&gt;
+  &lt;li&gt;Generative Adverserial Hype&lt;/li&gt;
   &lt;li&gt;Autodifferentiation/Backpropogation&lt;/li&gt;
   &lt;li&gt;Homomorphically Encrypted Weights&lt;/li&gt;
   &lt;li&gt;Convolutional Neural Networks&lt;/li&gt;

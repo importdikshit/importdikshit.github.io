@@ -23,5 +23,6 @@ title: Upcoming Content
 - Paper Walkthroughs: TSNE
 - MLE and MAP: Intution
 - Recurrent Neural Networks and its variants
+-
 
 Gotta get that 189 Extra Credit.
