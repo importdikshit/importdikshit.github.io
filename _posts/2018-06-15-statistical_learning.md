@@ -3,12 +3,14 @@ layout: post
 title: A Taxonomic Breakdown of Machine Learning Research: Part I
 ---
 
+# A Taxonomic Breakdown of Machine Learning Research
+
+## Part I: Statistical Learning (Supervised)
+
 <div class="message">
   This needs to redirect from some central page which has a more in depth overview of this series + why this is being undertaken.
   Like a Ben-Rechtish template in his overview of ML article.
 </div>
-
-# Statistical Learning
 
 This is characterized by rigor, a general hate for empiricism - which it substitutes with hardcore theoretical justifications for everything that happens within this space. This is overwhelming concerned with statistical inference surrounding the hypothesis space of our Machine Learning models.
 
@@ -55,11 +57,6 @@ This ties into the previous sub-taxonomy very tightly.
 ## Generalization Theory
 
 Allows us to examine the representational capacity and the optimal representational infrastructure for a learning algorithm. Statistical efficiency also creeps into cases like these. The above three areas are basically one and the same - and all fall under the umbrella of Statistical Learning Theory basically. Rate of generalization with increasing dataset sizes.
-
-
-
-
-
 
 
 ## Bayesian Methods in Learning
