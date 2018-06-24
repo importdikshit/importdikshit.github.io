@@ -1,6 +1,9 @@
 ---
 layout: post
-title: A Taxonomic Breakdown of Machine Learning Research: Part I
+title: "Taxonomizing Machine Learning Research Part I "
+description: "A walk through Statistical Learning Theory and the Supervised side of things."
+category: articles
+comments: false
 ---
 
 # A Taxonomic Breakdown of Machine Learning Research

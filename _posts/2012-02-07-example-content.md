@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Example content
+title: "Example Post"
+description: "Just a conveniently accessible Markdown reference. Taken from the Hyde Repo."
+category: articles
+comments: false
 ---
 
 
