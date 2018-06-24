@@ -35,8 +35,8 @@ When I am not trying to catch up on problem sets that I have been procrastinatin
 ### Links:
 
 * Email: ishan dot d at replace_with_university_name dot edu
-* Github: [My Github](www.github.com/importdikshit)
-* Resume: [Not linked yet](www.github.com/importdikshit)
-* Linkedin: [Not linked yet](www.github.com/importdikshit)
+* Github: [My Github](https://github.com/importdikshit)
+* Resume: [Not linked yet](https://github.com/importdikshit)
+* Linkedin: [Not linked yet](https://github.com/importdikshit)
 
 If you like my content, if you have spotted an error, or if you would simply like to collaborate on some content - feel free to reach out me! I will try my best to respond within some reasonable timeline!
