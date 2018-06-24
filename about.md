@@ -3,4 +3,10 @@ layout: page
 title: About
 ---
 
-Gotta fill this in when I get the time!
+# Goals for this website
+
+
+
+# About Me:
+
+Still working on this bit!
