@@ -16,7 +16,7 @@ My aim is to remain FACTUALLY CORRECT - but only *almost satisfied* - with the c
 
 4. **Explore more interesting ideas in a "hands on manner".**  As a mathematician in training this is the most valuable skill that I am - *still* - trying to inculcate. Being half baked on my theory and well exposed to practice problems has always served me better than hammering the theory down perfectly with little exposure to the practical side. The Land of Theory is basically an unconstrained optimization problem. I want to learn Machine Learning by doing and communicating.
 
-5. |**Regularity in purpose.** I want to build up some impetus to keep exploring new ideas within Machine Learning. It is fairly easy for me - in particular - to get drawn into some sense of comfort with a regular agenda. I want to push myself to explore new concepts and new ideas on a recurring basis.
+5. **Regularity in purpose.** I want to build up some impetus to keep exploring new ideas within Machine Learning. It is fairly easy for me - in particular - to get drawn into some sense of comfort with a regular agenda. I want to push myself to explore new concepts and new ideas on a recurring basis.
 
 6. **Outreach.** Using this as an opportunity to meet new people working on similar, interesting concepts.
 
@@ -26,7 +26,7 @@ My aim is to remain FACTUALLY CORRECT - but only *almost satisfied* - with the c
 ## About Me:
 
 
-![A picture of me](./_assets/about/IMG_0126.jpg){{:class="img-responsive"}}
+![Me](https://raw.githubusercontent.com/importdikshit/importdikshit.github.io/master/_assets/about/IMG_0126.jpg)
 
 I am a Rising Senior pursuing degrees in Mathematics and Statistics (and a Minor in Computer Science) at Berkeley. I am very passionate about Theoretical Machine Learning - and am currently shopping around for a definite subfield to really "dig my teeth into".
 
