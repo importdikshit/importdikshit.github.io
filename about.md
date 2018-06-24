@@ -26,7 +26,7 @@ My aim is to remain FACTUALLY CORRECT - but only *almost satisfied* - with the c
 ## About Me:
 
 
-![Me](https://raw.githubusercontent.com/importdikshit/importdikshit.github.io/master/_assets/about/IMG_0126.jpg)
+<img src = "assets/about/IMG_0126.jpg" alt="me" style="width:60%"/>_
 
 I am a Rising Senior pursuing degrees in Mathematics and Statistics (and a Minor in Computer Science) at Berkeley. I am very passionate about Theoretical Machine Learning - and am currently shopping around for a definite subfield to really "dig my teeth into".
 
