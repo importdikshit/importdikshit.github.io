@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Taxonomizing Machine Learning Research Part I "
-description: "A walk through Statistical Learning Theory and the Supervised side of things."
 category: articles
 comments: false
 ---
+
+This post attempts to breakdown and taxnonimze Machine Learning research. Not your typical overview post. What is the limit to the preview length on this stuff?
 
 # A Taxonomic Breakdown of Machine Learning Research
 
