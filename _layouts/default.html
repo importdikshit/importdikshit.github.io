@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-{% if site.rtl %}
-<html dir="rtl">
-{% else %}
-<html>
-{% endif %}
-<head>
-  {% include head.html %}
-</head>
+<!doctype html>
+<html lang="en">
+{% include head.html %}
 <body>
-  {% include header.html %}
-  <div class="container">
-  {{ content }}
-
-  {% include footer.html %}
-  </div><!-- /.main -->
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        {% include navigation.html %}
+        {{ content }}
+        {% include footer.html %}
+      </div>
+    </div>
+  </main>
+  {% include javascripts.html %}
 </body>
 </html>

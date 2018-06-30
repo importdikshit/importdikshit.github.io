@@ -1,111 +1,96 @@
-# White Paper
+![](_assets/images/documentation/chalk-intro@2x.png)
 
-**White Paper** is a theme for Jekyll. It is built keeping content in focus and is best for writers/developers who also like to share code with their essays.
+Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
-# White Paper in Action
+## Overview
 
-- Home page
+Features:
+  - About page.
+  - Automatic RSS feed.
+  - Automatic sitemap.
+  - Automatic time to read post indicator.
+  - Cross browser support (supports all modern browsers).
+  - Custom 404 page.
+  - Custom code highlighting.
+  - Customizable pagination.
+  - Dark and Light theme.
+  - Easy setup and deploying.
+  - Enlarge images on click.
+  - Filter on tags.
+  - Frequently updated with new versions.
+  - Many social media links supported.
+  - Media embed for videos.
+  - PageSpeed optimized.
+  - Proper sharing links for posts on Facebook, Twitter and Google Plus.
+  - SEO optimized.
+  - Support for local fonts.
+  - Support for emoji's.
 
-![home](https://cldup.com/FRewyA-EEI-3000x3000.png)
+Integrations
+  - [Disqus](https://disqus.com/)
+  - [Google Analytics](https://analytics.google.com/analytics/web/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [SVG Icons](https://icomoon.io/)
 
+Used tools
+  - [Autoprefixer](https://github.com/postcss/autoprefixer)
+  - [Circle CI](https://circleci.com/)
+  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
+  - [Jekyll](https://jekyllrb.com/)
+  - [Jekyll Assets](https://github.com/jekyll/jekyll-assets)
+  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
+  - [Kickster](https://kickster.nielsenramon.com/)
+  - [Retina.js](https://imulus.github.io/retinajs/)
+  - [STACSS](https://stacss.nielsenramon.com/)
+  - [Travis](https://travis-ci.org/)
+  - [Yarn](https://yarnpkg.com)
+  - [Zooming](https://github.com/kingdido999/zooming/)
 
-- Post Detail View
+## Usage
 
-![post detail](https://cldup.com/mERDZPBshM-3000x3000.png)
+### Installation
 
-## How to use White Paper
+If you haven't installed the following tools then go ahead and do so (make sure you have [Homebrew](https://brew.sh/) installed):
 
-Fork the repo to your account by clicking the button on the top right as shown in the image:
+    brew install ruby
+    brew install npm
 
-![fork](https://cldup.com/vOF0oaUkh5-3000x3000.png) and then where you want to fork it as shown below.
+On windows, install Ruby and Node with the installers found here:
 
-Next, Go the the project settings and change the repository name to `<username>.github.io` where username is your username.
+  - [Ruby](https://rubyinstaller.org/)
+  - [Node.js](https://nodejs.org/en/download/)
 
-Change these entries in the `_config.yml` file:
+Next setup your environment:
 
-Also, change this line in head.html [link](https://github.com/vinitkumar/white-paper/blob/9ad021a8f94c6240351bd57eda301b5f207e554e/_includes/head.html#L28)
+    npm run setup
 
-```html
-<!-- From this -->
-<link rel="stylesheet" href=" {{ '/css/main.min.css' | relative_url }}" type="text/css" />
-<!-- To this -->
-<link rel="stylesheet" href=" {{ '/css/main.min.css' | absolute_url }}" type="text/css" />
+### Development
 
-```
+Run Jekyll:
 
+    npm run local
 
-This will make sure that the path of CSS is correct and the theme loads correctly.
+## Deploy to GitHub Pages
 
-```yml
-master_repo: false
-url: "<username>.github.io"
-rtl: false  # change to true if posts is in Arabic/other Right to left language.
-```
-Also, change all other fields in the `_config.yml` file to your choice.
+Before you deploy, commit your changes to any working branch except the `gh-pages` one and run the following command:
 
-## Installation
+    npm run publish
 
-### Local Development
+**Important note**: Chalk does not support the standard way of Jekyll hosting on GitHub Pages. You need to deploy your working branch (can be any branch, for xxx.github.io users: use another branch than `master`) with the `npm run publish` command. Reason for this is because Chalk uses Jekyll plugins that aren't supported by GitHub pages. The `npm run publish` command will automatically build the entire project, then push it to the `gh-pages` branch of your repo. The script creates that branch for you so no need to create it yourself. Also, if you are developing a **project site**, you must set the `baseurl` in `_config.yml` to the name of your repository.
 
-This theme requires you to install couple of tools first to setup jekyll locally.
+You can find more info on how to use the `gh-pages` branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
-```$
-git clone git@github.com:vinitkumar/white-paper.git
-
-# If you have ruby installed.
-gem install jekyll bundler
-
-# If you have node installed.
-npm install
-sudo npm install -g grunt-cli  #to get the task runner for grunt.
-bundle install
-jekyll serve
-
-# on running the serve script, the site will be live on
-http://127.0.0.1:4000
-```
-This theme uses grunt to concat & minify the css for best performance. In order to prepare the css build. Run `grunt`
-It will create a main.min.css file in the css folder.
-
-### Switch Syntax Highlighting.
-
-This theme also provides syntax highlighting in different theme. Inside css folder, there is a syntax folder.
-
-```$
-.
-├── emacs.css
-├── github.css
-├── monokai.css
-├── native.css
-├── syntax.css
-└── vim.css
-
-```
-
-Now in the gruntfiles.js
-
-```js
-concat: {
-  dist: {
-    src: [
-      'css/base.css',
-      'css/sytax/emacs.css', // change this to another theme if you prefer, like vim.css and run grunt
-      'css/octicons.css'
-    ],
-    dest: 'css/<%= pkg.name %>.add.css'
-  }
-}
-```
+[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
 
 ## License
-* see [LICENSE](https://github.com/vinitkumar/white-paper/blob/gh-pages/LICENSE) file
 
-## Version
-* Version 4.0.0
+MIT License
 
-## Contact
-#### Developer
+## Contributing
 
-* Homepage: http://vinitkumar.me
-* e-mail: vinit1414.08@bitmesra.ac.in
-* Twitter: [@vinitkme](https://twitter.com/vinitkme "vinitkme on twitter")
+1. Fork it (https://github.com/[my-github-username]/chalk/fork)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
