@@ -3,7 +3,6 @@ layout: post
 title: "On Neural Networks"
 description: "Experimentally + Theoretically testing everything I have been told about Neural Networks"
 date: 2018-07-01
-tags: experiment, deep-learning
 comments: true
 ---
 
