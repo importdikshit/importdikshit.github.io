@@ -15,47 +15,47 @@ TL;DR: Neural Network research is remarkably ad hoc.
 
 ## MNIST DATASET
 
-- DATA NORMALIZATION AND STANDARDIZATION
+- data normalization and standardization
   (and watching for standardization post and pre split - else  different representations)
   (also what is group sparsity)
-- PCA and DECORRELATION ETC OF DATA + HOW IT HELPS REPRESENTATION WISE
+- pca and decorrelation etc of data + how it helps representation wise
 
-- WEIGHT INITIALIZATIONS AND EFFECTS
-- REGULARIZATION - L1, L2, etc. Max norm etc.
-- STOCHASTIC REGULARIZATION IE DROPOUT BABY
+- weight initializations and effects
+- regularization - l1, l2, etc. max norm etc.
+- stochastic regularization ie dropout baby
 
-- LEARNING RATE DECAY - STEP SIZE SHEBANG
-  (and using EARLY STOPPING + WHY EARLY STOPPING WORKS)
+- learning rate decay - step size shebang
+  (and using early stopping + why early stopping works)
 
-- DIFFERENT AND CUSTOM LOSS FUNCTIONS
-- DIFFERENT ACTIVATION FUNCTIONS (CONVEX FUNCTIONS VS NONCON?)
-- DIFFERENT OPTIMIZERS, RUDER ARTICLE
-- WTF IS BATCH NORMALIZATION + EFFECTS
-- HYPERPARAMETER JAZZ - AND SELECTION METHODS
-- MINIBATCH vs. STOCHASTIC LEARNING APPROACH (NOISE AS A REGULARIZER)
-- BATCHSIZE AND GRADIENT DESCENT WITH VARYING BATCH SIZE VS EPOCHS
-(Very large batch can reduce generlization ability according to https://arxiv.org/abs/1609.04836)
+- different and custom loss functions
+- different activation functions (convex functions vs noncon?)
+- different optimizers, ruder article
+- wtf is batch normalization + effects
+- hyperparameter jazz - and selection methods
+- minibatch vs. stochastic learning approach (noise as a regularizer)
+- batchsize and gradient descent with varying batch size vs epochs
+(very large batch can reduce generlization ability according to https://arxiv.org/abs/1609.04836)
 
-- VANISHING GRADIENT AND TRAINING *DEEP* NEURAL NETWORKS
-- ADD MORE LAYERS - AND HOW NEURAL TOPOLOGY CHANGES SHIT
-- TRANSFER LEARNING AND PRETRAINING
-- DATA AUGMENTATION FOR ROBUSTNESS + ADVERSERIAL ATTACKS!
+- vanishing gradient and training *deep* neural networks
+- add more layers - and how neural topology changes shit
+- transfer learning and pretraining
+- data augmentation for robustness + adverserial attacks!
 
-## CUSTOM DATASET FOR n=1 CASE EXPERIMENTS
+## CUSTOM DATASET FOR N=1 CASE EXPERIMENTS
 
-- PCA and DECORRELATION ETC OF DATA + HOW IT HELPS REPRESENTATION WISE
-- DOES REMOVING THE BIAS HAVE ANY EFFECT
-- PCA INTO 2 DIMENSIONS AND THEN VIZ VS VIZ 2 DIMENSIONAL DATA TO CHECK
-- GRADIENT DESCENT VS SEARCHING WEIGHT SPACES - C.o.DIMENSIONALITY
-- TRYING RANDOM DATA TO CHECK FOR GENERALIZATION
+- pca and decorrelation etc of data + how it helps representation wise
+- does removing the bias have any effect
+- pca into 2 dimensions and then viz vs viz 2 dimensional data to check
+- gradient descent vs searching weight spaces - c.o.dimensionality
+- trying random data to check for generalization
 
-- SHUFFLING YOUR DATASET AND HOW THAT IMPACTS TRAINING vs DETERMINISTIC ORDER
-- UNIVERSAL APPROXIMATION THEOREMS & BREAKDOWN
+- shuffling your dataset and how that impacts training vs deterministic order
+- universal approximation theorems & breakdown
 
-- LOCLA MINIMA: DETERMINISTIC PARAMETERS FOR THE MNIST DATA
-- THE WAY THE DECISION BOUNDARY OUTSIDE THE LEARNT SPACE FLUCTATES - KARPATHY LIKE EXPERIMENT
-- CAN YOU PREDICT A STRUCTURE LIKE APPROXIMATING A VARIANCE MATRIX FOR SOME DATA DISTRIBUTION?
-- IDENTITY FUNCTION SAVING IN PARAMETERS DEAL - FROM GOODFELLOW?
+- locla minima: deterministic parameters for the mnist data
+- the way the decision boundary outside the learnt space fluctates - karpathy like experiment
+- can you predict a structure like approximating a variance matrix for some data distribution?
+- identity function saving in parameters deal - from goodfellow?
 
 ---
 
