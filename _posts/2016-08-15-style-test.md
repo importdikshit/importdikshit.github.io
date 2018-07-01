@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Full and Comprehensive Style Test"
-description: "Test post for style"
+description: "Going to let this post exist here till I become a Markdown pro."
 date: 2016-08-15
 tags: test, style
 comments: true
@@ -11,7 +11,7 @@ Below is just about everything you'll need to style in the theme. Check the [sou
 
 ---
 
-## 1. Header 
+## 1. Header
 
 # Header 1
 
@@ -25,7 +25,7 @@ Below is just about everything you'll need to style in the theme. Check the [sou
 
 ###### Header 6
 
-### 1-1. Header Alignment 
+### 1-1. Header Alignment
 
 ##### Left(Default)
 
