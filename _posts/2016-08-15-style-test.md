@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Full and Comprehensive Style Test"
-description: "Going to let this post exist here till I become a Markdown pro."
+description: "Markdown Training Wheels"
 date: 2016-08-15
 tags: test, style
 comments: true

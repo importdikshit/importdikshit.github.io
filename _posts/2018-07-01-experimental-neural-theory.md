@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "On Neural Networks"
-description: "Experimentally + Theoretically testing everything I have been told about Neural Networks"
+description: "Examining the ideas that make Neural Networks better"
 date: 2018-07-01
 comments: true
 ---
 
-Have been handed a laundry list of heuristics for Neural Networks.
-Now, I will systematically examine the theory and experiment with it.
+Why am I writing this?
+
+What will this provide to the average reader?
+
+Have been handed a laundry list of heuristics for Neural Networks. Now, I will systematically examine the theory and experiment with it.
 
 TL;DR: Neural Network research is remarkably ad hoc.
 
