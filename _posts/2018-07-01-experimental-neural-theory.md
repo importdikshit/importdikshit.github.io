@@ -4,6 +4,7 @@ title: "On Neural Networks"
 description: "Examining the ideas that make Neural Networks better"
 date: 2018-07-01
 comments: true
+draft: true
 ---
 
 Why am I writing this?
