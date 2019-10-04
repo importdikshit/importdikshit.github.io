@@ -113,3 +113,8 @@ Maruku
     <div id="awesome">
       <p>This is great isn't it?</p>
     </div>
+
+
+## Non Standard Code Block
+
+This is a quick github test
