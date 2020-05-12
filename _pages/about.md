@@ -1,11 +1,21 @@
 ---
 layout: content
-title: About
+title: about
 permalink: /about/
 ---
 
-Hi, my name is Ishan. I am a Rising Senior at UC Berkeley. I like the Machine Learning Stack - especially the theoretical side of things. I have taken some interesting classes at Berkeley - ranging from Abstract Algebra to Machine Learning.
+> about positively-semi-definite:
 
-[Here](https://importdikshit.github.io) is a (probably outdated) version of my resume.
+this website is an attempt to improve my writing and exposition skills. i aim to do this by sharing my thoughts on the things that i am learning and techincal notes on the things that (i believe) i have already learnt. 
 
-If you like/love my content, or if you have spotted an error, or if you would like to collaborate on something - feel free to reach out to me. Email is in the header of the resume.
+i chose to name the website positively semi-definite for two reasons:
+
+-> **a reduction to familiarity**: a positively semi-definite matrix (in $$\mathbf{R}$$) is one which has eigenvalues $$\lambda_i \geq 0$$. while examining an algorithm/system, proving that a matrix is positively semidefinite (PSD) generally gives an immediate piercing insight into the way things will probably behave. i believe that this is a fundamental goal of every technical note: cutting through the noise to reduce complicated thoughts into a bunch of familiar concepts which give any reader an intuition about the way things *really* are.
+
+-> **an expression of uncertainty**: to be semi-definite about something is to be uncertain. this one works on two levels. most of my technical notes will deal with statisitcs - the science of uncertainty. additionally, i am fundamentally uncertain about a lot of things: my 'unknown unknowns'. i will only publish opinions that i am reasonably confident about - but there will always be some uncertainty inherent to this process. i hope that this website will educate me about the things i am fundamentally oblivious to, by subjecting my understanding of things to a very public 'peer review' process. 
+
+> about me: 
+
+hi, my name is Ishan. i enjoy decomposing complex narratives into simple hypotheses which can be examined with data. i've previously done machine learning research at three different labs in Berkeley and was the professional chair of the mathematics undergraduate students association. i'm currently doing data science/quantitative research (pick your preferred buzzword) at BlackRock in New York. 
+
+feel free to reach out: [linkedin](https://www.linkedin.com/in/ishan-dikshit-696402140/)
