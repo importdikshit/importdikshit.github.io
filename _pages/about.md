@@ -6,9 +6,9 @@ permalink: /about/
 
 > about positively-semi-definite:
 
-this website is an attempt to improve my writing and exposition skills. i aim to do this by sharing my thoughts on the things that i am learning and techincal notes on the things that (i believe) i have already learnt. 
+positively-semi-definite is an attempt to improve my writing and exposition skills. i aim to do this by sharing my thoughts on the things that i am learning and some technical notes on the things that (i believe) i have already know. 
 
-i chose to name the website positively semi-definite for two reasons:
+i named the website positively-semi-definite for two reasons:
 
 -> **a reduction to familiarity**: a positively semi-definite matrix (in $$\mathbf{R}$$) is one which has eigenvalues $$\lambda_i \geq 0$$. while examining an algorithm/system, proving that a matrix is positively semidefinite (PSD) generally gives an immediate piercing insight into the way things will probably behave. i believe that this is a fundamental goal of every technical note: cutting through the noise to reduce complicated thoughts into a bunch of familiar concepts which give any reader an intuition about the way things *really* are.
 
